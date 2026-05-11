@@ -9,14 +9,14 @@ const config: Config = {
     extend: {
       colors: {
         accent: {
-          50: "#fff0e6",
-          100: "#ffdfcc",
-          200: "#ffbf99",
-          300: "#ff9e66",
-          400: "#ff7d33",
-          500: "#ff5c00", // Vibrant premium orange
-          600: "#cc4a00",
-          900: "#331200",
+          50: "#fff1f1",
+          100: "#ffe4e4",
+          200: "#ffc9c9",
+          300: "#ffa1a1",
+          400: "#ff6b6b",
+          500: "#e21818", // Vibrant premium red
+          600: "#b80f0f",
+          900: "#380505",
         },
         carbon: {
           950: "#020202",
@@ -28,11 +28,12 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Arial", "sans-serif"],
-        display: ["var(--font-manrope)", "sans-serif"]
+        display: ["var(--font-manrope)", "sans-serif"],
+        teko: ["var(--font-teko)", "sans-serif"]
       },
       boxShadow: {
-        glow: "0 0 44px rgba(255, 92, 0, 0.28)",
-        "glow-lg": "0 0 60px rgba(255, 92, 0, 0.4)",
+        glow: "0 0 44px rgba(226, 24, 24, 0.28)",
+        "glow-lg": "0 0 60px rgba(226, 24, 24, 0.4)",
         "glass-inset": "inset 0 1px 0 0 rgba(255,255,255,0.05)",
       },
       animation: {
