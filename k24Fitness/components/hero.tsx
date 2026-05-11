@@ -53,7 +53,7 @@ export function Hero() {
       {/* Hero Background Image & Overlays */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/hero_Image.webp"
+          src="/hero_image.webp"
           alt="K24 Fitness Studio Background"
           className="h-full w-full object-cover object-center pointer-events-none scale-105"
         />
